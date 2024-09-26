@@ -1,7 +1,3 @@
-import 'dart:ffi';
-import 'dart:mirrors';
-import 'dart:typed_data';
-
 void main() {
   print("");
   int angka; // Deklarasi
@@ -32,5 +28,13 @@ void main() {
   dynamic nom = "Neo"; // Dynamic
   // nom = 1092; // bisa berubah tergantung tipe input
 
-  print(nom + " " + inisial);
+  // print(nom + " " + inisial);
+
+  List<dynamic> name = [
+    ["Afad", "Aubrey"],
+    ['L', 'P'],
+    [20, 21]
+  ];
+
+  print(name[0][1]);
 }
