@@ -1,3 +1,1 @@
-# Pemrograman Perangkat Bergerak
-
-## Week 02
+# Week 02
