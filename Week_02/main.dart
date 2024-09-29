@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 void main() {
   print("");
@@ -49,9 +48,17 @@ void main() {
   // print(name[0][1]);
 
   List<Map<String, dynamic>> dataSiswa = [
-    {"Nama": "Afad", "Status": "Menunggu kehidupan", "IPK": 4.0},
-    {"Nama": "Aubrey", "Status": "Jomblo", "IPK": 4.0},
+    {"Nama": "Afad", "IPK": 3.54}
   ];
 
   print(dataSiswa[0]["IPK"]);
+
+
+
+
+  // Buatkan algortima
+  // a. Menghitung rata rata IPK
+  // b. Jumlah berapa banyak mahasiswa yang sudah menikah
+  // 
+  // Masing-Masing dari poin 1.a dan 1.b diimplementasikan dalam kode program
 }
